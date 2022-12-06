@@ -1,0 +1,9 @@
+
+body{
+    background-image: url("https://images7.alphacoders.com/679/679140.png" );
+}
+
+.card-project:hover {
+    border: 1px solid#fff;
+    cursor: pointer;
+}
