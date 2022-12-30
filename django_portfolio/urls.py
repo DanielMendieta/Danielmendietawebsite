@@ -25,5 +25,6 @@ urlpatterns = [
     path ('', views.home, name='home'),
     path ('Blog/', include ('Blog.urls')),
     path ('proyectos/', views.proyectos, name='proyectos'),
+    path ('formulario/', views.formulario, name='formulario'),
 ]
 urlpatterns += static (settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
